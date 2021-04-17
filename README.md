@@ -7,16 +7,19 @@ Its an extremely lightweight solution for secure password generation.
 No license is applied to this application, it is free for open use WITHOUT credit.
 
 
-
 # NO LICENSE. COMPLETELY FREE. NO CREDIT REQUIRED.
-It's just free. That's all. No catches, just don't sell it.
+
+>> It's just free. That's all. No catches, just don't sell it.
+
 
 # ALL MODIFICATIONS ALLOWED.
-The original version of this program was created by OLYMPUS, but all modifications are allowed.
+
+>> The original version of this program was created by OLYMPUS, but all modifications are allowed.
+
 
 # WANT TO MODIFY IT?
 
-Here's a list of things you could add to it that would make it more secure:
+Here's a list of things you could add to it that would make it better:
 
 >> SHA256 / AES256 String Encryption
 
