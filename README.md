@@ -30,3 +30,9 @@ Here's a list of things you could add to it that would make it better:
 >> On-The-Fly Configuration
 
 >> or anything you want!
+
+# DISCLAIMER
+
+>> I made this in two days, with a total time of about 6 hours of work. This means the code is not beautiful. Not even nice.
+ 
+>> It is spaghetti code. You could fix that, or you could add the meatballs.
