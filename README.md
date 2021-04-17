@@ -1,4 +1,4 @@
-# js-secure-password-generator
+# JAVASCRIPT PASSWORD GENERATOR
 
 >> This is a simple password generator using mouse position and multiple encoding methods overlayed on each other to generate virtually unguessable passwords in a dependency-free, completely offline file only 718 lines long, with one image file only for style.
 
