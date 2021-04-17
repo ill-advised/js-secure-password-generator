@@ -1,0 +1,718 @@
+<body>
+  <!-- THIS IS MADE FROM THE MOST SPAGHETTI OF SPAGHETTI CODE -->
+  <!-- MODIFY IF YOU WANT NIGHTMARES -->
+  <table>
+    <script src="script.js">
+    </script>
+    <style>
+      ::-webkit-scrollbar {
+        display: none;
+      }
+      body {
+        overflow: show;
+        background-color: #000000;
+      }
+      textarea {
+        background-color: #000000;
+        color: white;
+        border: hidden;
+      }
+      .sample {
+        font-size: 25px;
+        font-weight: 500;
+        height: 1080px;
+        background-image: url("dots.png");
+        border-color: #000000;
+      }
+      .output {
+        height: 500px;
+        width: 500px;
+        overflow: shown;
+      }
+      .out {
+        z-index: 2;
+        position: absolute;
+        text-align: center;
+        padding-left: 20%;
+        padding-top: 5%;
+        background-color: #ffffff;
+      }
+      .x-outputs {
+        text-align: center;
+        padding-left: 200;
+      }
+      .y-outputs {
+        text-align: center;
+        position: absolute;
+        padding-left: 50px;
+        z-index: 1;
+      }
+      .outputfinalzdiv{
+        text-align: left;
+        position: absolute;
+        padding-left: 705px;
+        z-index: 1;
+        padding-bottom: 400px;
+      }
+      #log-container {
+        overflow: auto;
+        height: 475px;
+        text-align: left;
+        position: absolute;
+        padding-left: 1415px;
+        padding-bottom: 400px;
+      }
+      .log-warn {
+        color: orange }
+      .log-error {
+        color: red }
+      .log-info {
+        color: skyblue }
+      .log-log {
+        color: silver }
+      .log-warn, .log-error {
+        font-weight: bold;
+      }
+      .olympuscontainer {
+        padding-left: 10px;
+        padding-top: 50px;
+        z-index: 3;
+      }
+      .clearbutton {
+        border-color: white;
+        background-color: black;
+        color: white;
+        padding: 10px;
+        z-index: 500;
+      }
+      .outputfinalzdiv{
+        padding-left: 765px;
+        padding-right: 40px;
+        z-index: 1;
+      }
+      .outputfinalza{
+        padding-left: 1250;
+      }
+      html {
+        background-color: #000000;
+      }
+      .outputfinalz{
+        padding-left: 15px;
+      }
+      body {
+        overflow: hidden;
+      }
+      .buttontest {
+        z-index: 500;
+        padding-top: 15px;
+        padding-bottom: 15px;
+      }
+      .sample {
+        font-size: 25px;
+        font-weight: 500;
+        height: 1080px;
+        background-color: #000000;
+        color: white;
+        border-color: #000000;
+      }
+      .output {
+        overflow: shown;
+        background-color: #000000;
+        color: white;
+      }
+      .out {
+        z-index: 1;
+        position: absolute;
+        text-align: center;
+        padding-left: 15px;
+        background-color: #000000;
+        color: white;
+        border-color: #000000;
+      }
+      textarea {
+        background-color: #000000;
+        color: white;
+        border-color: #000000;
+      }
+    </style>
+    <tbody>
+      <tr>
+        <div class="olympuscontainer">
+          <img src="2cdc69ffe55c0978f090e27f70a587e2.png">
+          </img>
+        <div class="buttontest">
+          <button class="clearbutton" onclick="thebestFunction()">CLEAR (LEFT)
+          </button> 
+          <button class="clearbutton" onclick="superFunction()">CLEAR (RIGHT)
+          </button>
+          <button class="clearbutton" onclick="ipromiseitsthebestFunction()">HOW TO USE
+          </button>
+        </div>
+        <td>
+          <div>
+            <textarea readonly cols="30" rows="1" name="output1x">
+            </textarea>
+          </div>
+          <div>
+            <textarea readonly cols="30" rows="1" name="output2x">
+            </textarea>
+          </div>
+          <div>
+            <textarea readonly cols="30" rows="1" name="output3x">
+            </textarea>
+          </div>
+          <div>
+            <textarea readonly cols="30" rows="1" name="output4x">
+            </textarea>
+          </div>
+          <div>
+            <textarea readonly cols="30" rows="1" name="output5x">
+            </textarea>
+          </div>
+          <div>
+            <textarea readonly cols="30" rows="1" name="output6x">
+            </textarea>
+          </div>
+          <div>
+            <textarea readonly cols="30" rows="1" name="output7x">
+            </textarea>
+          </div>
+          <div>
+            <textarea readonly cols="30" rows="1" name="output8x">
+            </textarea>
+          </div>
+          <div>
+            <textarea readonly cols="30" rows="1" name="output9x">
+            </textarea>
+          </div>
+          <div>
+            <textarea readonly cols="30" rows="1" name="output10x">
+            </textarea>
+          </div>
+          <div>
+            <textarea readonly cols="30" rows="1" name="output11x">
+            </textarea>
+          </div>
+          <div>
+            <textarea readonly cols="30" rows="1" name="output12x">
+            </textarea>
+          </div>
+          <div>
+            <textarea readonly cols="30" rows="1" name="output13x">
+            </textarea>
+          </div>
+          <div>
+            <textarea readonly cols="30" rows="1" name="output14x">
+            </textarea>
+          </div>
+          <div>
+            <textarea readonly cols="30" rows="1" name="output15x">
+            </textarea>
+          </div>
+          <div>
+            <textarea readonly cols="30" rows="1" name="output16x">
+            </textarea>
+          </div>
+          <div>
+            <textarea readonly cols="30" rows="1" name="output17x">
+            </textarea>
+          </div>
+          <div>
+            <textarea readonly cols="30" rows="1" name="output18x">
+            </textarea>
+          </div>
+          <div>
+            <textarea readonly cols="30" rows="1" name="output19x">
+            </textarea>
+          </div>
+          <div>
+            <textarea readonly cols="30" rows="1" name="output20x">
+            </textarea>
+          </div>
+          <div>
+            <textarea readonly cols="30" rows="1" name="output21x">
+            </textarea>
+          </div>
+          <div>
+            <textarea readonly cols="30" rows="1" name="output22x">
+            </textarea>
+          </div>
+          <div>
+            <textarea readonly cols="30" rows="1" name="output23x">
+            </textarea>
+          </div>
+          <div>
+            <textarea readonly cols="30" rows="1" name="output24x">
+            </textarea>
+          </div>
+          <div>
+            <textarea readonly cols="30" rows="1" name="output25x">
+            </textarea>
+          </div>
+          <div>
+            <textarea readonly cols="30" rows="1" name="output26x">
+            </textarea>
+          </div>
+        </td>
+        <div class="y-outputs">
+          <td>
+            <div>
+              <textarea readonly cols="30" rows="1" name="output1y">
+              </textarea>
+            </div>
+            <div>
+              <textarea readonly cols="30" rows="1" name="output2y">
+              </textarea>
+            </div>
+            <div>
+              <textarea readonly cols="30" rows="1" name="output3y">
+              </textarea>
+            </div>
+            <div>
+              <textarea readonly cols="30" rows="1" name="output4y">
+              </textarea>
+            </div>
+            <div>
+              <textarea readonly cols="30" rows="1" name="output5y">
+              </textarea>
+            </div>
+            <div>
+              <textarea readonly cols="30" rows="1" name="output6y">
+              </textarea>
+            </div>
+            <div>
+              <textarea readonly cols="30" rows="1" name="output7y">
+              </textarea>
+            </div>
+            <div>
+              <textarea readonly cols="30" rows="1" name="output8y">
+              </textarea>
+            </div>
+            <div>
+              <textarea readonly cols="30" rows="1" name="output9y">
+              </textarea>
+            </div>
+            <div>
+              <textarea readonly cols="30" rows="1" name="output10y">
+              </textarea>
+            </div>
+            <div>
+              <textarea readonly cols="30" rows="1" name="output11y">
+              </textarea>
+            </div>
+            <div>
+              <textarea readonly cols="30" rows="1" name="output12y">
+              </textarea>
+            </div>
+            <div>
+              <textarea readonly cols="30" rows="1" name="output13y">
+              </textarea>
+            </div>
+            <div>
+              <textarea readonly cols="30" rows="1" name="output14y">
+              </textarea>
+            </div>
+            <div>
+              <textarea readonly cols="30" rows="1" name="output15y">
+              </textarea>
+            </div>
+            <div>
+              <textarea readonly cols="30" rows="1" name="output16y">
+              </textarea>
+            </div>
+            <div>
+              <textarea readonly cols="30" rows="1" name="output17y">
+              </textarea>
+            </div>
+            <div>
+              <textarea readonly cols="30" rows="1" name="output18y">
+              </textarea>
+            </div>
+            <div>
+              <textarea readonly cols="30" rows="1" name="output19y">
+              </textarea>
+            </div>
+            <div>
+              <textarea readonly cols="30" rows="1" name="output20y">
+              </textarea>
+            </div>
+            <div>
+              <textarea readonly cols="30" rows="1" name="output21y">
+              </textarea>
+            </div>
+            <div>
+              <textarea readonly cols="30" rows="1" name="output22y">
+              </textarea>
+            </div>
+            <div>
+              <textarea readonly cols="30" rows="1" name="output23y">
+              </textarea>
+            </div>
+            <div>
+              <textarea readonly cols="30" rows="1" name="output24y">
+              </textarea>
+            </div>
+            <div>
+              <textarea readonly cols="30" rows="1" name="output25y">
+              </textarea>
+            </div>
+            <div>
+              <textarea readonly cols="30" rows="1" name="output26y">
+              </textarea>
+            </div>
+        </div>
+        <td>
+          <div>
+            <textarea readonly cols="30" rows="1" name="output1z">
+            </textarea>
+          </div>
+          <div>
+            <textarea readonly cols="30" rows="1" name="output2z">
+            </textarea>
+          </div>
+          <div>
+            <textarea readonly cols="30" rows="1" name="output3z">
+            </textarea>
+          </div>
+          <div>
+            <textarea readonly cols="30" rows="1" name="output4z">
+            </textarea>
+          </div>
+          <div>
+            <textarea readonly cols="30" rows="1" name="output5z">
+            </textarea>
+          </div>
+          <div>
+            <textarea readonly cols="30" rows="1" name="output6z">
+            </textarea>
+          </div>
+          <div>
+            <textarea readonly cols="30" rows="1" name="output7z">
+            </textarea>
+          </div>
+          <div>
+            <textarea readonly cols="30" rows="1" name="output8z">
+            </textarea>
+          </div>
+          <div>
+            <textarea readonly cols="30" rows="1" name="output9z">
+            </textarea>
+          </div>
+          <div>
+            <textarea readonly cols="30" rows="1" name="output10z">
+            </textarea>
+          </div>
+          <div>
+            <textarea readonly cols="30" rows="1" name="output11z">
+            </textarea>
+          </div>
+          <div>
+            <textarea readonly cols="30" rows="1" name="output12z">
+            </textarea>
+          </div>
+          <div>
+            <textarea readonly cols="30" rows="1" name="output13z">
+            </textarea>
+          </div>
+          <div>
+            <textarea readonly cols="30" rows="1" name="output14z">
+            </textarea>
+          </div>
+          <div>
+            <textarea readonly cols="30" rows="1" name="output15z">
+            </textarea>
+          </div>
+          <div>
+            <textarea readonly cols="30" rows="1" name="output16z">
+            </textarea>
+          </div>
+          <div>
+            <textarea readonly cols="30" rows="1" name="output17z">
+            </textarea>
+          </div>
+          <div>
+            <textarea readonly cols="30" rows="1" name="output18z">
+            </textarea>
+          </div>
+          <div>
+            <textarea readonly cols="30" rows="1" name="output19z">
+            </textarea>
+          </div>
+          <div>
+            <textarea readonly cols="30" rows="1" name="output20z">
+            </textarea>
+          </div>
+          <div>
+            <textarea readonly cols="30" rows="1" name="output21z">
+            </textarea>
+          </div>
+          <div>
+            <textarea readonly cols="30" rows="1" name="output22z">
+            </textarea>
+          </div>
+          <div>
+            <textarea readonly cols="30" rows="1" name="output23z">
+            </textarea>
+          </div>
+          <div>
+            <textarea readonly cols="30" rows="1" name="output24z">
+            </textarea>
+          </div>
+          <div>
+            <textarea readonly cols="30" rows="1" name="output25z">
+            </textarea>
+          </div>
+          <div>
+            <textarea readonly cols="30" rows="1" name="output26z">
+            </textarea>
+          </div>
+        </td>
+    </tbody>
+    <div class="outputfinalzdiv">
+      <textarea cols="40" rows="30" name="outputfinalza">
+      </textarea>
+      <textarea cols="40" rows="30" name="outputfinalz">
+      </textarea>
+    </div>
+    <div id="log-container">
+      <pre id="log">
+</pre>
+      </table>
+    <script>
+      /* completely stolen from some stackoverflow article */
+      rewireLoggingToElement(
+        () => document.getElementById("log"),
+        () => document.getElementById("log-container"), true);
+      function rewireLoggingToElement(eleLocator, eleOverflowLocator, autoScroll) {
+        fixLoggingFunc('log');
+        fixLoggingFunc('debug');
+        fixLoggingFunc('warn');
+        fixLoggingFunc('error');
+        fixLoggingFunc('info');
+        function fixLoggingFunc(name) {
+          console['old' + name] = console[name];
+          console[name] = function(...arguments) {
+            const output = produceOutput(name, arguments);
+            const eleLog = eleLocator();
+            if (autoScroll) {
+              const eleContainerLog = eleOverflowLocator();
+              const isScrolledToBottom = eleContainerLog.scrollHeight - eleContainerLog.clientHeight <= eleContainerLog.scrollTop + 1;
+              eleLog.innerHTML += output + "<br>";
+              if (isScrolledToBottom) {
+                eleContainerLog.scrollTop = eleContainerLog.scrollHeight - eleContainerLog.clientHeight;
+              }
+            }
+            else {
+              eleLog.innerHTML += output + "<br>";
+            }
+            console['old' + name].apply(undefined, arguments);
+          };
+        }
+        function produceOutput(name, args) {
+          return args.reduce((output, arg) => {
+            return output +
+              "<span class=\"log-" + (typeof arg) + " log-" + name + "\">" +
+              (typeof arg === "object" && (JSON || {
+            }
+                                          ).stringify ? JSON.stringify(arg) : arg) +
+              "</span>&nbsp;";
+          }
+                             , '');
+        }
+      }
+      /* not stolen stuff */
+      let sampleEle = document.querySelector(".sample");
+      document.body.addEventListener("mousemove", (event) => {
+        var x = event.x;
+        var y = event.y;
+        /* X 36-18 ENCODING */
+        var x1 = x.toString(36);
+        var x2 = x.toString(35);
+        var x3 = x.toString(34);
+        var x4 = x.toString(33);
+        var x5 = x.toString(32);
+        var x6 = x.toString(31);
+        var x7 = x.toString(30);
+        var x8 = x.toString(29);
+        var x9 = x.toString(28);
+        var x0 = x.toString(27);
+        var xa = x.toString(26);
+        var xb = x.toString(25);
+        var xc = x.toString(24);
+        var xd = x.toString(23);
+        var xe = x.toString(22);
+        var xf = x.toString(21);
+        var xg = x.toString(20);
+        var xh = x.toString(19);
+        var xi = x.toString(18);
+        var xj = x.toString(36);
+        var xx = btoa("" + xj + "")
+        var x10 = xx;
+        var convertToHexa = (str = '') =>{
+          var res = [];
+          var {
+            length: len }
+          = str;
+          for (let n = 0, l = len; n < l; n ++) {
+            var hex = Number(str.charCodeAt(n)).toString(16);
+            res.push(hex);
+          };
+          return res.join('');
+        }
+        document.getElementsByName('output5x')[0].value =(convertToHexa(xx));
+        /* Y 36-18 ENCODING */
+        var y1 = y.toString(36);
+        var y2 = y.toString(35);
+        var y3 = y.toString(34);
+        var y4 = y.toString(33);
+        var y5 = y.toString(32);
+        var y6 = y.toString(31);
+        var y7 = y.toString(30);
+        var y8 = y.toString(29);
+        var y9 = y.toString(28);
+        var y0 = y.toString(27);
+        var ya = y.toString(26);
+        var yb = y.toString(25);
+        var yc = y.toString(24);
+        var yd = y.toString(23);
+        var ye = y.toString(22);
+        var yf = y.toString(21);
+        var yg = y.toString(20);
+        var yh = y.toString(19);
+        var yi = y.toString(18);
+        var yj = y.toString(36);
+        var yy = btoa("" + yj + "")
+        var y10 = yy;
+        var convertToHexa = (str = '') =>{
+          var res = [];
+          var {
+            length: len }
+          = str;
+          for (let n = 0, l = len; n < l; n ++) {
+            var hex = Number(str.charCodeAt(n)).toString(16);
+            res.push(hex);
+          };
+          return res.join('');
+        }
+        /* Base36 Encoding */
+        var yfinal1 = y10.toString(36);
+        var xfinal1 = x10.toString(36);
+        /* Binary to ASCII */
+        var xfinal2 = btoa("" + xfinal1 + "")
+        var yfinal2 = btoa("" + xfinal2 + "")
+        /* Compiles Multiple Versions */
+        var xfinal3 = (xf + xg + xx + xfinal1)
+        var yfinal3 = (yf + yg + yy + yfinal1)
+        /* Removes all instances of an equal sign */
+        var y22final = yfinal3.replace(/\=/g,"");
+        var x22final = xfinal3.replace(/\=/g,"");
+        /* btoa */
+        var x23final = btoa(x22final)
+        var y23final = btoa(y22final)
+        var x23xfinal = btoa(x23final)
+        var x23xfinal = btoa(x23final)
+        var x24final = x23xfinal.replace(/\=/g,"");
+        var y24final = x23xfinal.replace(/\=/g,"");
+        var x25final = btoa(x24final)
+        var y25final = btoa(y24final)
+        var superfinalx = x25final.replace(/\=/g,"");
+        var superfinaly = y25final.replace(/\=/g,"");
+        /* Output for X*/
+        document.getElementsByName('output1x')[0].value = x1;
+        document.getElementsByName('output2x')[0].value = x2;
+        document.getElementsByName('output3x')[0].value = x3;
+        document.getElementsByName('output4x')[0].value = x4;
+        document.getElementsByName('output5x')[0].value = x5;
+        document.getElementsByName('output6x')[0].value = x6;
+        document.getElementsByName('output7x')[0].value = x7;
+        document.getElementsByName('output8x')[0].value = x8;
+        document.getElementsByName('output9x')[0].value = x9;
+        document.getElementsByName('output10x')[0].value = x0;
+        document.getElementsByName('output11x')[0].value = xa;
+        document.getElementsByName('output12x')[0].value = xb;
+        document.getElementsByName('output13x')[0].value = xc;
+        document.getElementsByName('output14x')[0].value = xd;
+        document.getElementsByName('output15x')[0].value = xe;
+        document.getElementsByName('output16x')[0].value = xf;
+        document.getElementsByName('output17x')[0].value = xg;
+        document.getElementsByName('output18x')[0].value = xh;
+        document.getElementsByName('output19x')[0].value = xi;
+        document.getElementsByName('output20x')[0].value = xj;
+        document.getElementsByName('output21x')[0].value = xx;
+        document.getElementsByName('output22x')[0].value = x10;
+        document.getElementsByName('output23x')[0].value = xfinal1;
+        document.getElementsByName('output24x')[0].value = xfinal2;
+        document.getElementsByName('output25x')[0].value = xfinal3;
+        document.getElementsByName('output26x')[0].value = x22final;
+        /* Output for Y*/
+        document.getElementsByName('output1y')[0].value = y1;
+        document.getElementsByName('output2y')[0].value = y2;
+        document.getElementsByName('output3y')[0].value = y3;
+        document.getElementsByName('output4y')[0].value = y4;
+        document.getElementsByName('output5y')[0].value = y5;
+        document.getElementsByName('output6y')[0].value = y6;
+        document.getElementsByName('output7y')[0].value = y7;
+        document.getElementsByName('output8y')[0].value = y8;
+        document.getElementsByName('output9y')[0].value = y9;
+        document.getElementsByName('output10y')[0].value = y0;
+        document.getElementsByName('output11y')[0].value = ya;
+        document.getElementsByName('output12y')[0].value = yb;
+        document.getElementsByName('output13y')[0].value = yc;
+        document.getElementsByName('output14y')[0].value = yd;
+        document.getElementsByName('output15y')[0].value = ye;
+        document.getElementsByName('output16y')[0].value = yf;
+        document.getElementsByName('output17y')[0].value = yg;
+        document.getElementsByName('output18y')[0].value = yh;
+        document.getElementsByName('output19y')[0].value = yi;
+        document.getElementsByName('output20y')[0].value = yj;
+        document.getElementsByName('output21y')[0].value = yy;
+        document.getElementsByName('output22y')[0].value = y10;
+        document.getElementsByName('output23y')[0].value = yfinal1;
+        document.getElementsByName('output24y')[0].value = yfinal2;
+        document.getElementsByName('output25y')[0].value = yfinal3;
+        document.getElementsByName('output26y')[0.].value = y22final;
+        /* Output for x+y = z*/
+        document.getElementsByName('output1z')[0].value = y1 + x1;
+        document.getElementsByName('output2z')[0].value = y2 + x2;
+        document.getElementsByName('output3z')[0].value = y3 + x3;
+        document.getElementsByName('output4z')[0].value = y4 + x4;
+        document.getElementsByName('output5z')[0].value = y5 + x5;
+        document.getElementsByName('output6z')[0].value = y6 + x6;
+        document.getElementsByName('output7z')[0].value = y7 + x7;
+        document.getElementsByName('output8z')[0].value = y8 + x8;
+        document.getElementsByName('output9z')[0].value = y9 + x9;
+        document.getElementsByName('output10z')[0].value = y0 + x0;
+        document.getElementsByName('output11z')[0].value = ya + xa;
+        document.getElementsByName('output12z')[0].value = yb + xb;
+        document.getElementsByName('output13z')[0].value = yc + xc;
+        document.getElementsByName('output14z')[0].value = yd + xd;
+        document.getElementsByName('output15z')[0].value = ye + xe;
+        document.getElementsByName('output16z')[0].value = yf + xf;
+        document.getElementsByName('output17z')[0].value = yg + xg;
+        document.getElementsByName('output18z')[0].value = yh + xh;
+        document.getElementsByName('output19z')[0].value = yi + xi;
+        document.getElementsByName('output20z')[0].value = yj + xj;
+        document.getElementsByName('output21z')[0].value = yy + xx;
+        document.getElementsByName('output22z')[0].value = y10 + x10;
+        document.getElementsByName('output23z')[0].value = yfinal1 + xfinal1;
+        document.getElementsByName('output24z')[0].value = yfinal2 + xfinal2;
+        document.getElementsByName('output25z')[0].value = yfinal3 + xfinal3;
+        document.getElementsByName('output26z')[0.].value = y22final + x22final;
+        /* Constant output*/
+        document.getElementsByName('outputfinalz')[0.].value += superfinalx;
+        document.getElementsByName('outputfinalza')[0.].value += superfinaly;
+        const method = (['log'][Math.floor(Math.random() * 2)]);
+        console[method]("POSITION UPDATED. ID = " + [Math.floor(Math.random() * 20)] + [Math.floor(Math.random() * 20)] + [Math.floor(Math.random() * 20)] + [Math.floor(Math.random() * 20)] + [Math.floor(Math.random() * 20)] + [Math.floor(Math.random() * 20)] + [Math.floor(Math.random() * 20)] + [Math.floor(Math.random() * 20)] + [Math.floor(Math.random() * 20)]);
+        var i = i + 1;
+      }
+                                     , 2);
+      function superFunction() {
+        document.getElementsByName('outputfinalz')[0.].value = "";
+      }
+      function thebestFunction() {
+        document.getElementsByName('outputfinalza')[0.].value = "";
+      }
+      function ipromiseitsthebestFunction() {
+        location.replace('how-to-use.html')
+      }
+    </script>
