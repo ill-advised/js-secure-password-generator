@@ -9,6 +9,17 @@ No license is applied to this application, it is free for open use WITHOUT credi
 
 
 # NO LICENSE. COMPLETELY FREE. NO CREDIT REQUIRED.
-# ALL MODIFICATIONS ALLOWED.
+It's just free. That's all. No catches, just don't sell it.
 
-Original version made by OLYMPUS.
+# ALL MODIFICATIONS ALLOWED.
+The original version of this program was created by OLYMPUS, but all modifications are allowed.
+
+# WANT TO MODIFY IT?
+
+Here's a list of things you could add to it that would make it more secure:
+
+>> SHA256 / AES256 String Encryption
+>> User Interface Options
+>> Download .txt files of outputs.
+>> On-The-Fly Configuration
+>> or anything you want!
