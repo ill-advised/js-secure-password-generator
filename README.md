@@ -19,7 +19,11 @@ The original version of this program was created by OLYMPUS, but all modificatio
 Here's a list of things you could add to it that would make it more secure:
 
 >> SHA256 / AES256 String Encryption
+
 >> User Interface Options
+
 >> Download .txt files of outputs.
+
 >> On-The-Fly Configuration
+
 >> or anything you want!
